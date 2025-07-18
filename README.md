@@ -69,7 +69,7 @@ graph TD
 Imagem de entrada (satélite) → Resultado da detecção do modelo:
 
 <p float="left">
-  <img src="input_image12.jpg" width="45%" alt="Imagem de entrada">
+  <img src="input_image12.png" width="45%" alt="Imagem de entrada">
   <img src="output_image12.jpg" width="45%" alt="Resultado da detecção">
 </p>
 
