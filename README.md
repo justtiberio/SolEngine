@@ -44,9 +44,9 @@ Este projeto é um protótipo acadêmico desenvolvido como parte de uma discipli
 ```mermaid
 graph TD
   A[Usuário digita endereço] --> B[Google Maps API]
-  B --> C[Imagem de Satélite]
-  C --> D[Modelo SolEngine (Detectron2)]
-  D --> E[Telhado Detectado]
+  B --> C[Imagem de satélite]
+  C --> D[SolEngine - Detectron2]
+  D --> E[Telhado detectado]
   E --> F[Estimativa de painéis e energia]
 ```
 
@@ -62,9 +62,16 @@ graph TD
   - **mAP (mean Average Precision):** 0.87
   - **Precisão média em testes reais:** 92%
 
-> Exemplo de detecção:
->
-> ![Exemplo de Detecção](./output_image12.jpg)
+---
+
+## 📸 Exemplo de Funcionamento
+
+Imagem de entrada (satélite) → Resultado da detecção do modelo:
+
+<p float="left">
+  <img src="input_image12.jpg" width="45%" alt="Imagem de entrada">
+  <img src="output_image12.jpg" width="45%" alt="Resultado da detecção">
+</p>
 
 ---
 
